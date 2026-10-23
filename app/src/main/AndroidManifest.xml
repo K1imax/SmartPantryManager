@@ -25,7 +25,6 @@
             android:name=".AddEditIngredientActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".SuggestedRecipesActivity"
             android:exported="false"
@@ -34,7 +33,6 @@
             android:name=".RecipeDetailActivity"
             android:exported="false"
             android:parentActivityName=".SuggestedRecipesActivity" />
-
     </application>
 
 </manifest>

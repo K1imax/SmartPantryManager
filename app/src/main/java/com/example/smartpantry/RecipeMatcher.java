@@ -74,7 +74,7 @@ public class RecipeMatcher {
         return w;
     }
 
-    /** Converts to a base unit: pieces stay as pieces; everything else becomes ml (1 g ~ 1 ml). */
+    /** Converts to a base unit: pieces stay as pieces; everything else becomes ml/g (1 g ~ 1 ml). */
     private static double toBase(String unit, double qty) {
         switch (unit.toLowerCase(Locale.ROOT)) {
             case "kg":   return qty * 1000;
