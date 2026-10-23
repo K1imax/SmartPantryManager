@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.google.android.material.appbar.MaterialToolbar;
 
-/** Settings screen: one toggle saved in SharedPreferences. */
+/**  Settings screen: one toggle saved in SharedPreferences. */
 public class SettingsActivity extends AppCompatActivity {
 
     public static final String PREFS = "settings";
