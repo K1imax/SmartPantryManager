@@ -59,7 +59,7 @@ public class AddEditIngredientActivity extends AppCompatActivity {
             return true;
         });
 
-        // Edit mode: an item id was passed through the Intent
+        //  Edit mode: an item id was passed through the Intent
         long itemId = getIntent().getLongExtra(EXTRA_ITEM_ID, -1);
         if (itemId != -1) {
             existing = dbHelper.getPantryItem(itemId);
