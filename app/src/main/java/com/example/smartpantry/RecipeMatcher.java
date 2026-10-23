@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * The strict-matching rule: a recipe is suggested ONLY if every ingredient
- * it needs is in the pantry in at least the required quantity.
+ * it needs is in the pantry in at least the required quantity. otherwise it will show nothing
  */
 public class RecipeMatcher {
 
